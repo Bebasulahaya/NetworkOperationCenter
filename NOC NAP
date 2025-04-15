@@ -1,0 +1,75 @@
+🧠 Apa Itu NOC Network Access Provider?
+Network Access Provider (NAP) adalah penyedia jaringan akses, yaitu perusahaan atau entitas yang menyediakan 
+infrastruktur jaringan agar pengguna (pelanggan, ISP lain, operator seluler) bisa mengakses internet atau jaringan komunikasi.
+
+Contoh NAP di Indonesia:
+Icon+ (anak perusahaan PLN)
+FiberStar
+Lintasarta
+Moratelindo
+Jadi, NOC pada NAP adalah bagian teknis di perusahaan tersebut yang bertanggung jawab mengawasi, memelihara, dan menangani gangguan pada jaringan akses yang mereka sediakan.
+
+======================================================================================================================================================================================
+
+⚙️ Bagaimana Cara Kerjanya?
+
+1. NOC memantau koneksi jaringan akses secara real-time, baik untuk pelanggan langsung maupun untuk klien seperti ISP atau enterprise.
+
+2. Jika terjadi gangguan, tim NOC akan langsung mendeteksi dari sistem monitoring.
+
+3. NOC juga koordinasi dengan tim lapangan atau vendor jika diperlukan perbaikan fisik (misalnya kabel FO putus).
+
+4. Mereka juga mengatur traffic, peering, dan konfigurasi teknis lainnya agar layanan tetap optimal.
+
+===========================================================================================================================================================================================
+
+📋 Jobdesk NOC di Network Access Provider
+
+1. Monitoring Jaringan Akses
+Memantau perangkat jaringan seperti:
+OLT, ONU, switch Access, Router
+Melihat status koneksi pelanggan (up/down, error, packet loss).
+
+2. Menangani Gangguan Pelanggan
+Menerima notifikasi gangguan dari pelanggan ISP atau corporate client.
+Menganalisis sumber gangguan: apakah perangkat mati, link putus, atau masalah konfigurasi.
+
+3. Monitoring Jaringan Backbone Internal
+Karena NAP biasanya juga punya jaringan backbone sendiri, NOC juga bertugas memantau jalur antar kota atau antar data center internal mereka.
+
+4. Koordinasi Tim Lapangan
+Jika gangguan berasal dari infrastruktur fisik (kabel putus, perangkat rusak), NOC akan kirim teknisi lapangan.
+Menyediakan informasi teknis seperti titik lokasi gangguan dan jenis perangkat.
+
+5. Konfigurasi & Manajemen Jaringan
+Konfigurasi VLAN, IP Address, peering, dan routing untuk klien.
+Update firmware perangkat dan backup konfigurasi.
+
+6. Pemantauan Trafik dan Bandwidth
+Memastikan tidak terjadi overload pada jalur akses atau backbone.
+Memberikan laporan penggunaan bandwidth kepada tim layanan pelanggan.
+
+7. Pelaporan dan Dokumentasi
+Buat laporan insiden, performa link, dan update topologi jaringan.
+Catat semua aktivitas NOC untuk evaluasi dan audit internal.
+
+8. Support untuk ISP Mitra
+Banyak NAP bekerja sama dengan ISP lain. NOC juga support teknis untuk ISP yang menyewa jaringan mereka.
+
+===================================================================================================================================================
+
+🔁 Contoh Workflow Kerja NOC di Network Access Provider
+Jam	  Aktivitas
+08:00	Cek status OLT dan backbone
+09:30	Terima laporan gangguan dari ISP klien
+09:45	Analisa loss link ke OLT wilayah Bekasi
+10:00	Koordinasi dengan field team untuk cek kabel FO
+11:30	Update sistem dan kirim laporan insiden ke tim layanan
+
+====================================================================================================================================================
+
+✅ Kesimpulan
+NOC di Network Access Provider adalah tim teknis yang memastikan jaringan akses dan backbone yang mereka sediakan 
+tetap aktif, stabil, dan bisa diandalkan oleh klien (baik individu, ISP, atau perusahaan besar).
+Mereka jadi jantung pengawasan semua aktivitas jaringan di perusahaan NAP.
+

@@ -1,0 +1,59 @@
+🧠 Apa Itu NOC Backbone?
+NOC Backbone adalah bagian dari Network Operation Center (NOC) yang secara khusus bertugas menangani dan memantau jaringan backbone — yaitu jaringan inti (utama) 
+yang menjadi tulang punggung koneksi internet atau komunikasi data suatu perusahaan atau penyedia layanan (ISP).
+
+➕ Pengertian "Backbone"
+"Backbone" adalah jalur utama yang menghubungkan berbagai jaringan kecil (seperti kantor cabang, gedung, server, atau wilayah geografis) menjadi satu sistem besar.
+Biasanya backbone menggunakan jaringan berkecepatan tinggi, seperti fiber optic.
+
+Contoh:
+Jaringan antara pusat data Jakarta ke Surabaya.
+Koneksi utama yang menghubungkan ISP dengan jaringan internasional.
+
+
+
+⚙️ Bagaimana Cara Kerja NOC Backbone?
+
+NOC Backbone bekerja dengan cara:
+Memantau koneksi antar-node backbone, seperti router core, switch distribusi, dan perangkat jaringan kelas tinggi lainnya.
+Memastikan konektivitas antar wilayah tetap aktif dan stabil.
+Mendeteksi jika ada link backbone yang down atau terputus.
+Menjaga performa bandwidth backbone, karena di sinilah lalu lintas data sangat besar.
+
+
+
+📋 Jobdesk NOC Backbone
+Berikut adalah tugas-tugas utama dari tim NOC Backbone:
+
+1. Monitoring Jaringan Backbone
+Memantau perangkat utama seperti core router, core switch, dan link antar kota atau antar server.
+Menggunakan tools seperti MRTG, Zabbix, SolarWinds, dll.
+
+2. Penanganan Gangguan pada Link Utama
+Menangani gangguan besar seperti link fiber optic terputus, gangguan routing BGP/OSPF, dan sebagainya.
+Menyediakan backup route atau rerouting agar trafik tidak terputus.
+
+3. Koordinasi dengan ISP atau Telco
+Jika gangguan berasal dari luar (misal: provider backbone terganggu), tim NOC backbone akan koordinasi dengan pihak ketiga.
+
+4. Maintenance Infrastruktur Backbone
+Update firmware perangkat backbone.
+Cek stabilitas link, latency, packet loss, dan jitter.
+
+5. Pemetaan Jaringan Backbone
+Membuat dan memelihara topologi backbone.
+Memastikan dokumentasi jaringan backbone selalu up-to-date.
+
+6. Monitoring Kapasitas Bandwidth
+Mengecek apakah ada bottleneck atau overuse di jalur backbone.
+Mengatur QoS (Quality of Service) dan load balancing jika perlu.
+
+7. Security Monitoring
+Mengawasi potensi serangan terhadap backbone seperti DDoS, spoofing, atau routing hijack.
+
+Komponen	              Penjelasan
+NOC Backbone	          Bagian dari NOC yang khusus menangani jaringan utama (core network)
+Tugas Utama            	Monitoring, pemeliharaan, dan penanganan gangguan pada jaringan backbone
+Perangkat	              Core router, core switch, link fiber optic, koneksi antar data center
+Tools Monitoring	      Zabbix, PRTG, SolarWinds, NetFlow Analyzer
+

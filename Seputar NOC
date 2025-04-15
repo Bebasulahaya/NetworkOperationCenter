@@ -1,0 +1,52 @@
+Pengertian Network Operation Center (NOC)
+Network Operation Center (NOC) adalah sebuah pusat pengawasan dan pengendalian yang digunakan untuk memantau, mengelola, serta menangani permasalahan yang terjadi 
+pada jaringan komputer dan sistem informasi suatu perusahaan atau organisasi. NOC berfungsi sebagai pusat koordinasi teknis yang beroperasi selama 24 jam sehari
+untuk memastikan infrastruktur TI berjalan dengan optimal dan tanpa gangguan.
+
+Di dalam NOC, tim teknis bertugas untuk melakukan monitoring terhadap kinerja jaringan, memastikan konektivitas tetap stabil, serta merespons dengan cepat apabila 
+terjadi gangguan atau serangan keamanan siber. Semua aktivitas pemantauan biasanya dilakukan dengan menggunakan berbagai perangkat lunak monitoring seperti
+Zabbix, PRTG, atau Nagios, yang dapat menampilkan kondisi jaringan secara real-time.
+
+✅ Jobdesk Network Operation Center (NOC)
+Berikut adalah beberapa tugas utama yang biasa dikerjakan oleh staf atau teknisi NOC:
+
+1. Monitoring Jaringan dan Sistem
+Memantau trafik jaringan, server, perangkat jaringan, dan layanan IT secara real-time.
+Menggunakan software monitoring seperti Zabbix, PRTG, Nagios, dll.
+Mengawasi uptime/downtime sistem dan koneksi.
+
+2. Deteksi dan Penanganan Gangguan
+Mendeteksi gangguan atau anomali secepat mungkin.
+Memberikan respons awal terhadap masalah teknis seperti koneksi putus, gangguan akses server, atau overload sistem.
+Menangani insiden ringan secara langsung atau mengeskalasikan ke tim yang lebih ahli.
+
+3. Pelaporan dan Dokumentasi
+Membuat laporan harian/mingguan tentang status jaringan dan insiden yang terjadi.
+Mengisi sistem ticketing setiap kali ada gangguan atau pekerjaan teknis.
+Dokumentasi sangat penting untuk analisis dan histori gangguan.
+
+4. Koordinasi dengan Tim Lain
+Berkomunikasi dengan tim teknis lapangan, network engineer, atau IT support jika ada masalah yang tidak bisa diselesaikan sendiri.
+Memberikan informasi teknis yang lengkap agar penanganan lebih cepat.
+
+5. Pemeliharaan Sistem
+Menjalankan tugas-tugas maintenance seperti reboot sistem, update firmware perangkat, dan pengecekan konfigurasi.
+Ikut dalam jadwal pemeliharaan berkala (scheduled maintenance) yang sudah ditentukan.
+
+6. Monitoring Keamanan Jaringan
+Memastikan tidak ada aktivitas mencurigakan seperti DDoS, brute force attack, atau penyusupan (intrusion).
+Mengaktifkan sistem alarm jika terdeteksi potensi ancaman.
+
+7. Pembuatan Laporan SLA (Service Level Agreement)
+Mengukur performa layanan sesuai kontrak SLA yang disepakati antara perusahaan dan klien.
+Melaporkan apakah layanan memenuhi standar uptime/downtime yang ditentukan.
+
+8. Shift Kerja 24/7
+Karena sistem harus selalu online, staf NOC biasanya bekerja berbasis shift (pagi, siang, malam) untuk memastikan pemantauan berjalan nonstop.
+
+
+
+
+
+
+

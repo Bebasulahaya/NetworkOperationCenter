@@ -1,0 +1,83 @@
+🧠 Apa Itu NOC Local Loop?
+NOC Local Loop adalah bagian dari Network Operation Center (NOC) yang bertugas memantau 
+dan menangani koneksi jaringan dari perangkat pelanggan ke jaringan utama ISP, atau disebut juga last mile connection.
+
+➕ Sederhananya:
+Local Loop = Jalur koneksi dari kantor/pelanggan ke jaringan utama ISP.
+NOC Local Loop = Tim yang mengawasi dan memastikan jalur tersebut tetap stabil, tanpa gangguan fisik atau teknis.
+
+Local loop bisa menggunakan berbagai media:
+Fiber Optik (FO)
+Wireless Radio (P2P)
+Tembaga (kabel telepon untuk layanan ADSL)
+Microwave Link
+
+==========================================================================================================================================
+
+📶 Bagaimana Cara Kerjanya?
+1. Memantau status koneksi last mile pelanggan
+Baik pelanggan dedicated, broadband, hingga korporat.
+
+2. Mendeteksi dan menganalisis gangguan fisik
+Seperti kabel FO putus, konektor longgar, interferensi radio, dsb.
+
+3. Bekerja sama dengan teknisi lapangan
+Untuk penanganan masalah secara fisik, terutama di sisi pelanggan.
+
+========================================================================================================================================================================
+
+📋 Jobdesk NOC Local Loop
+
+1. Monitoring Jalur Local Loop
+Memantau link yang menghubungkan pelanggan dengan jaringan utama ISP.
+Mendeteksi status "up/down", packet loss, jitter, dan kualitas sinyal.
+
+2. Menganalisis Gangguan Last Mile
+Menangani kasus seperti:
+
+Link radio down
+FO customer terputus
+Koneksi fluktuatif
+Cek log dan status perangkat di kedua sisi (pelanggan & NAP).
+
+3. Koordinasi dengan Field Engineer
+Jika gangguan fisik terdeteksi (misalnya FO putus atau perangkat pelanggan mati), tim NOC Local Loop akan eskalasi ke teknisi lapangan.
+Berikan detail lokasi, ID pelanggan, dan perangkat yang digunakan.
+
+4. Pengecekan Perangkat CPE
+CPE = Customer Premises Equipment, seperti modem, router, atau antena P2P.
+Cek apakah perangkat CPE masih online, loss power, atau error konfigurasi.
+
+5. Dokumentasi & Reporting
+Catat semua gangguan local loop yang terjadi.
+Update laporan harian/mingguan tentang status last mile connection.
+Mapping jalur dan topologi jaringan pelanggan.
+
+6. Testing dan Commissioning
+Jika ada pemasangan baru, tim NOC Local Loop bantu testing koneksi dari perangkat ke jaringan utama.
+Pastikan koneksi optimal sebelum diserahkan ke pelanggan.
+
+📡 Perangkat dan Tools yang Terlibat
+Radio Link Management Tools (Mikrotik, Cambium, Ubiquiti, dll)
+FO Monitoring (OTDR, NMS untuk OLT/ONU)
+Ticketing System
+Monitoring Tools seperti Zabbix, Dude, NetXMS, atau custom NMS
+
+===========================================================================================================================================================
+
+🔁 Contoh Workflow Harian NOC Local Loop
+Waktu	Aktivitas
+08:00	Cek status last mile link pelanggan prioritas
+09:00	Terima tiket: pelanggan BUMN link putus
+09:15	Cek perangkat radio dan power supply di sisi pelanggan
+09:30	Koordinasi field engineer kirim teknisi ke lokasi
+13:00	Update status dan dokumentasi insiden
+15:00	Monitoring pelanggan baru yang baru aktif kemarin
+
+===============================================================================================================================================================
+
+✅ Kesimpulan
+NOC Local Loop adalah tim yang mengelola dan memastikan koneksi antara pelanggan dan jaringan ISP tetap stabil. 
+Mereka menangani jalur paling akhir (last mile) yang sering jadi sumber masalah jika tidak dipantau dengan baik.
+Tanpa tim ini, gangguan kecil di sisi pelanggan bisa berdampak besar ke layanan ISP secara keseluruhan.
+

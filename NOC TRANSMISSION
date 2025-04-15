@@ -1,0 +1,80 @@
+🧠 Apa Itu NOC Transmission?
+NOC Transmission adalah bagian dari Network Operation Center (NOC) yang bertanggung jawab untuk memantau dan mengelola sistem transmisi data dalam jaringan, 
+terutama transmisi berbasis fiber optic, radio link, atau microwave.
+
+➕ Penjelasan Sederhana:
+“Transmission” = Proses pengiriman sinyal atau data dari satu titik ke titik lain melalui media transmisi.
+“NOC Transmission” = Tim yang mengawasi jalur pengiriman data seperti link fiber optik antar kota, jalur microwave antar tower, atau transmisi backbone ISP.
+Mereka bekerja untuk memastikan bahwa link antar titik jaringan (seperti antar BTS, data center, atau kantor cabang) tetap aktif, stabil, dan tidak terjadi putus koneksi.
+
+=============================================================================================================================================================================
+
+⚙️ Bagaimana Cara Kerja NOC Transmission?
+1. Monitoring Jalur Transmisi
+
+Menggunakan software monitoring untuk melihat status link (up/down, loss, jitter, delay).
+Memonitor perangkat transmisi seperti:
+DWDM, SDH, OTN, Microwave Radio, FO converter.
+
+2. Deteksi Gangguan
+
+Jika ada putus koneksi antar lokasi, sistem akan memberikan alert (alarm).
+NOC Transmission segera analisis penyebab: apakah karena kabel FO putus, gangguan interferensi microwave, atau perangkat down.
+
+3. Koordinasi Penanganan
+Jika gangguan tidak bisa diselesaikan secara remote, tim akan kirim teknisi lapangan untuk cek fisik atau mengganti perangkat.
+
+4. Eskalasi
+Jika gangguan berasal dari pihak ketiga (misalnya vendor fiber atau Telco), akan dilakukan eskalasi ke mereka.
+
+=====================================================================================================================================================================
+
+📋 Jobdesk NOC Transmission
+Berikut ini tugas-tugas utama NOC Transmission:
+
+1. Monitoring Link Transmisi
+Memantau semua jalur penghubung antar lokasi seperti:
+Fiber optic antar kota
+Microwave link antar tower
+Radio backhaul untuk BTS
+Memastikan jalur tetap stabil dan sesuai SLA (Service Level Agreement).
+
+2. Deteksi dan Penanganan Gangguan
+Menanggapi alarm dari perangkat transmisi.
+Menganalisis apakah gangguan berasal dari sisi perangkat, media transmisi, atau eksternal.
+Menyelesaikan gangguan secepat mungkin untuk meminimalkan downtime.
+
+3. Koordinasi dengan Field Engineer
+Jika gangguan tidak bisa diatasi secara remote, NOC Transmission akan kirim teknisi lapangan.
+Memberikan instruksi teknis dan panduan pengecekan.
+
+4. Troubleshooting Perangkat Transmisi
+Cek perangkat seperti:
+MUX, DWDM, FO Converter, Microwave Dish, Switch Transport
+Melakukan restart, reset konfigurasi, atau mengganti jalur cadangan (failover link).
+
+5. Dokumentasi dan Pelaporan
+Membuat laporan insiden dan update status link.
+Dokumentasi penting untuk histori gangguan dan evaluasi performa jaringan.
+
+6. Backup dan Monitoring Cadangan Jalur
+Memastikan ada redundansi atau backup link (misal dual FO atau backup radio link).
+Monitoring juga mencakup backup jalur, bukan cuma jalur utama.
+
+====================================================================================================================================================================
+
+🔁 Contoh Workflow NOC Transmission
+Waktu	Aktivitas
+08.00	Cek semua status link backbone dan microwave
+09.00	Terima alarm dari link fiber Jakarta–Bandung down
+09.10	Cek perangkat DWDM dan log monitoring
+09.20	Eskalasi ke vendor fiber optic
+11.00	Update status ke tim manajemen dan buat tiket insiden
+
+========================================================================================================================================================================
+
+✅ Kesimpulan
+NOC Transmission adalah bagian dari NOC yang mengawasi dan memastikan jalur pengiriman data fisik seperti
+fiber optik, microwave, atau radio link bekerja dengan baik. Mereka menangani segala bentuk gangguan transmisi yang bisa menyebabkan koneksi antar lokasi putus atau melambat.
+
+

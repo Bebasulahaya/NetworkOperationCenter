@@ -1,0 +1,91 @@
+🧠 Apa Itu NOC ENE Switching?
+NOC ENE Switching (kadang disebut juga NOC Ethernet & Switching) adalah bagian dari Network Operation Center yang fokus menangani 
+dan memantau perangkat switching dalam jaringan, terutama di bagian distribusi dan akses jaringan Ethernet.
+
+Singkatnya:
+NOC = Tim pemantau jaringan
+ENE = Ethernet Network Equipment
+Switching = Teknologi penghubung antar perangkat dalam jaringan lokal (LAN)
+
+Jadi, NOC ENE Switching adalah bagian yang mengawasi dan mengelola switch-switch Ethernet dalam jaringan. 
+Switch ini bisa ada di gedung, kantor cabang, atau titik-titik distribusi jaringan lainnya.
+
+===================================================================================================================================================
+
+⚙️ Bagaimana Cara Kerja NOC ENE Switching?
+
+1. Monitoring Perangkat Switching
+
+Menggunakan sistem monitoring seperti Zabbix, PRTG, NetXMS untuk memantau performa switch.
+Mendeteksi apakah switch aktif, mati, overload, atau terjadi loop.
+
+2. Cek Koneksi Port
+
+Melihat status port, seperti up/down, speed, collision, dan MAC address yang terhubung.
+
+3. Troubleshooting Remote
+
+Melakukan remote restart, disable/enable port, atau konfigurasi ulang VLAN.
+Melakukan backup konfigurasi switch.
+
+4. Menangani Gangguan Akses
+
+Jika ada klien/pelanggan yang tidak bisa connect, NOC Switching akan cek apakah masalah ada di switch.
+
+5. Manajemen VLAN
+
+Mengatur dan memantau VLAN (Virtual LAN) untuk memisahkan jaringan pengguna, server, dan layanan lainnya.
+
+===================================================================================================================================================
+
+📋 Jobdesk NOC ENE Switching
+Berikut jobdesk atau tugas harian tim NOC yang menangani Ethernet & Switching:
+
+1. Monitoring Perangkat Switch
+Memastikan semua switch dalam keadaan online dan berjalan normal.
+Cek suhu perangkat, penggunaan CPU, dan bandwidth port.
+
+2. Monitoring Port Aktivitas
+Mengecek apakah port-port tertentu aktif, idle, atau error.
+Cek apakah ada port yang terkena loop (salah satu penyebab jaringan lambat).
+
+3. Troubleshooting Jaringan Lokal (LAN)
+Menangani koneksi lambat di lantai tertentu, gangguan internet di kantor cabang, atau konflik IP.
+Restart switch atau ganti port jika port tertentu rusak.
+
+4. Manajemen VLAN dan Konfigurasi
+Mengatur VLAN untuk jaringan tertentu seperti admin, keuangan, dan tamu.
+Memberikan prioritas jaringan dengan QoS (Quality of Service).
+
+5. Backup & Restore Konfigurasi Switch
+Menyimpan konfigurasi secara berkala.
+Restore jika terjadi kerusakan atau reset pabrik.
+
+6. Koordinasi dengan Tim Lapangan
+Mengarahkan teknisi jika ada kerusakan fisik seperti kabel putus atau port mati total.
+Memberi instruksi konfigurasi jika ada penambahan switch.
+
+7. Pelaporan dan Dokumentasi
+Mencatat semua kegiatan monitoring dan perbaikan.
+Update data topologi switch dan dokumentasi jaringan.
+
+====================================================================================================================================================
+
+🔁 Contoh Workflow Kerja
+Langkah	          Tindakan
+Deteksi Gangguan	Sistem monitoring beri alert switch down
+Analisis	        Cek switch via remote: mati atau overload
+Tindakan	        Reboot atau disable port bermasalah
+Koordinasi	      Jika fisik rusak, kirim teknisi
+Dokumentasi      	Update laporan insiden dan status perangkat
+
+=====================================================================================================================================================
+
+✅ Kesimpulan
+NOC ENE Switching adalah tim yang berperan penting dalam menjaga performa jaringan lokal (LAN) dengan cara memantau dan mengelola switch Ethernet,
+memastikan jaringan internal tetap stabil dan cepat.
+
+
+
+
+

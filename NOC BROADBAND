@@ -1,0 +1,83 @@
+🧠 Apa Itu NOC Broadband?
+NOC Broadband adalah bagian dari Network Operation Center yang bertugas untuk memantau, mengelola,
+dan menangani gangguan layanan internet broadband yang digunakan oleh pelanggan rumah tangga atau kantor kecil.
+
+➕ Sederhananya:
+Broadband = Layanan internet dengan bandwidth besar yang digunakan masyarakat umum (seperti Indihome, Biznet Home, First Media, dll).
+NOC Broadband = Tim yang mengawasi layanan internet pelanggan retail agar tetap lancar dan merespon cepat jika ada gangguan.
+Kalau NOC Dedicated fokus ke pelanggan perusahaan besar, NOC Broadband lebih ke pelanggan rumahan.
+
+================================================================================================================================================
+
+⚙️ Bagaimana Cara Kerjanya?
+
+1.Memonitor koneksi internet pelanggan secara real-time.
+
+2. Mendeteksi gangguan seperti:
+Modem tidak connect
+Lampu LOS merah (putus fiber)
+Jaringan lemot atau putus-putus
+
+3. Memberikan dukungan teknis lewat sistem tiket, live chat, atau call center.
+
+4. Koordinasi dengan teknisi lapangan untuk penanganan gangguan fisik.
+
+======================================================================================================================================================
+
+📋 Jobdesk NOC Broadband
+
+
+1. Monitoring Jaringan Broadband
+Pantau status perangkat pelanggan:
+ONU (Optical Network Unit)
+Router/modem pelanggan
+Cek apakah perangkat online/offline, ada error, atau overheat.
+
+2. Menangani Gangguan Internet Pelanggan
+Menerima dan menindaklanjuti laporan gangguan seperti:
+Tidak bisa konek internet
+Kecepatan lambat
+Sinyal Wi-Fi hilang
+Lakukan restart modem jarak jauh atau reset konfigurasi.
+
+3. Troubleshooting Remote
+Cek konfigurasi PPPoE, DHCP, MAC binding.
+Cek routing, IP address pelanggan, dan performa sinyal optik (Rx/Tx).
+
+4. Eskalasi ke Teknisi Lapangan
+Kalau gangguan tidak bisa diatasi secara remote (misalnya kabel putus), maka diteruskan ke tim teknisi di lokasi pelanggan.
+
+5. Monitoring Gangguan Massal
+Deteksi gangguan area jika banyak pelanggan di satu wilayah lapor masalah yang sama.
+Tandai sebagai gangguan massal (mass issue) dan kirim notifikasi ke CS atau pelanggan.
+
+6. Laporan dan Dokumentasi
+Catat insiden harian.
+Update status jaringan broadband.
+Buat laporan performa jaringan (uptime, downtime, loss area).
+
+========================================================================================================================================================================
+
+🔁 Contoh Workflow NOC Broadband
+Waktu	Aktivitas
+08:00	Cek status perangkat ONU dan modem pelanggan
+09:30	Terima laporan pelanggan gangguan internet
+09:40	Remote reset modem & analisa gangguan
+10:00	Kirim tiket ke tim lapangan karena LOS merah
+14:00	Deteksi gangguan massal di wilayah Bekasi
+15:00	Update status & dokumentasi ke dashboard monitoring
+
+========================================================================================================================================================================
+
+⚠️ Perangkat & Tools yang Sering Digunakan
+ACS (Auto Configuration Server) → untuk remote modem/ONT pelanggan
+NMS (Network Management System) → monitoring perangkat jaringan
+Ticketing System → untuk manajemen gangguan
+Zabbix / Cacti / NetXMS → untuk grafik performa jaringan
+
+============================================================================================================================================================================
+
+✅ Kesimpulan
+NOC Broadband adalah bagian dari NOC yang khusus menangani layanan internet untuk pelanggan rumah atau kantor kecil, 
+mulai dari pemantauan koneksi, penanganan gangguan, hingga eskalasi teknis. Mereka adalah garda depan untuk memastikan pelanggan tetap puas dengan koneksi internetnya.
+

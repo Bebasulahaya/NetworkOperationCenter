@@ -1,0 +1,76 @@
+🧠 Apa Itu NOC Dedicated?
+NOC Dedicated adalah bagian dari Network Operation Center (NOC) yang secara khusus menangani jaringan pelanggan "dedicated", 
+yaitu pelanggan yang menggunakan layanan internet atau jaringan khusus (non-sharing) dengan bandwidth full (dedicated bandwidth).
+
+➕ Singkatnya:
+Dedicated = Layanan internet/jaringan yang tidak dibagi-bagi dengan pengguna lain.
+NOC Dedicated = Tim yang khusus memonitor dan menangani pelanggan-pelanggan premium ini (biasanya corporate, enterprise, atau instansi pemerintahan).
+
+============================================================================================================================================================
+
+⚙️ Bagaimana Cara Kerja NOC Dedicated?
+
+1. Monitoring 24/7 koneksi pelanggan dedicated
+Karena mereka pelanggan premium, layanan harus nyaris 100% uptime.
+NOC Dedicated akan dapat notifikasi langsung jika ada gangguan kecil sekalipun.
+
+2. Respons Cepat terhadap Gangguan
+Prioritas penanganan lebih tinggi dibanding pelanggan biasa (shared).
+NOC akan langsung cek koneksi dan jika perlu, langsung kirim tim lapangan.
+
+3. Kustomisasi Layanan
+NOC Dedicated juga mengatur konfigurasi sesuai kebutuhan masing-masing pelanggan, seperti:
+Static IP
+BGP peering
+VPN antar kantor
+Port forwarding, VLAN, dsb.
+
+=============================================================================================================================================
+
+📋 Jobdesk NOC Dedicated
+
+1. Monitoring Koneksi Pelanggan Dedicated
+Memantau uptime, latency, packet loss, dan bandwidth usage pelanggan.
+Menggunakan tools seperti Cacti, Zabbix, SolarWinds, NetFlow Analyzer, dll.
+
+2. Menangani Gangguan Khusus Pelanggan Dedicated
+Jika ada laporan gangguan dari pelanggan, tim NOC dedicated akan:
+Menganalisis root cause (perangkat, link, atau konfigurasi).
+Memastikan gangguan diatasi secepat mungkin karena menyangkut layanan penting (misal perbankan, rumah sakit, kantor pemerintah).
+
+3. Konfigurasi Perangkat dan Jaringan
+Konfigurasi router, firewall, switch, IP Public, BGP, atau VPN sesuai kebutuhan pelanggan.
+Menyesuaikan QoS (Quality of Service) untuk trafik tertentu (misalnya VoIP atau CCTV).
+
+4. Koordinasi Tim Field Engineer
+Jika gangguan tidak bisa diselesaikan secara remote, NOC akan mengirim tim teknisi ke lokasi pelanggan.
+Memberikan instruksi teknis untuk pengecekan fisik.
+
+5. Laporan dan Dokumentasi Khusus
+Buat laporan performa jaringan pelanggan tertentu.
+Kadang pelanggan minta SLA Report (Service Level Agreement Report) bulanan atau mingguan.
+
+6. Komunikasi dengan Pelanggan
+Memberikan update status gangguan secara langsung ke tim IT pelanggan.
+Support komunikasi teknis (via email, telepon, atau ticketing system).
+
+7. Monitoring Kustom
+Masing-masing pelanggan dedicated bisa punya kebutuhan monitoring sendiri, dan NOC akan sesuaikan itu.
+Misalnya: alert jika bandwidth mencapai 90%, atau bila VPN disconnect selama 2 menit.
+
+=====================================================================================================================================================
+
+🧾 Contoh Klien yang Ditangani NOC Dedicated
+Jenis Pelanggan	          Kebutuhan
+Bank Nasional	            Koneksi antar cabang & data center
+Rumah Sakit	              Jaringan aman & stabil untuk sistem informasi medis
+Perusahaan Manufaktur	    Koneksi real-time untuk sistem ERP
+Pemerintahan	            Internet aman dengan IP statis dan firewall tinggi
+
+=======================================================================================================================================================
+
+✅ Kesimpulan
+NOC Dedicated adalah tim NOC yang mengelola koneksi pelanggan khusus (dedicated) secara intensif dan detail.
+Tugas mereka mencakup monitoring nonstop, troubleshooting cepat, konfigurasi sesuai kebutuhan pelanggan, hingga pelaporan performa jaringan.
+Karena pelanggan ini bayar mahal untuk koneksi dedicated, maka tanggung jawab NOC Dedicated pun sangat besar untuk menjaga kualitas dan kepercayaan.
+

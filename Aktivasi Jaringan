@@ -1,0 +1,55 @@
+AKTIVASI JARINGAN
+
+1. Pengertian Aktivasi Jaringan
+Aktivasi jaringan adalah proses teknis yang dilakukan untuk menghubungkan pelanggan atau perangkat ke dalam sistem jaringan penyedia layanan agar dapat mengakses layanan seperti internet, IPTV, VoIP, dan lainnya. Aktivasi ini melibatkan sejumlah tahapan mulai dari survei lokasi hingga pengujian dan serah terima layanan.
+
+2. Tujuan Aktivasi Jaringan
+Menyediakan koneksi jaringan kepada pengguna.
+Menghubungkan perangkat pelanggan ke sistem pusat.
+Menjamin layanan berjalan stabil dan sesuai standar.
+Menjamin keamanan dan kualitas jaringan.
+
+3. Langkah-langkah Aktivasi Jaringan
+
+a. Survei Lokasi (Site Survey)
+Langkah awal di mana teknisi melakukan pemeriksaan lokasi calon pengguna. Tujuannya adalah untuk mengetahui ketersediaan jaringan, posisi perangkat, jalur kabel, dan kebutuhan lainnya.
+
+b. Persiapan Perangkat dan Material
+Setelah survei, teknisi menyiapkan perangkat seperti ONT (Optical Network Terminal), modem, router, kabel UTP/fiber, dan peralatan kerja (splicer, crimping tool, dll).
+
+c. Instalasi Fisik
+Teknisi melakukan pemasangan kabel dari titik distribusi ke lokasi pelanggan. Setelah itu, perangkat seperti ONT/modem dipasang dan dihubungkan ke jaringan.
+
+d. Konfigurasi Perangkat
+Perangkat dikonfigurasi dengan parameter jaringan yang sesuai: pengaturan IP address, VLAN, SSID (untuk WiFi), PPPoE, dan lainnya agar terhubung ke pusat.
+
+e. Provisioning Layanan
+Data pelanggan dimasukkan ke dalam sistem pusat penyedia layanan (seperti NMS atau CRM). Layanan internet dan fitur lain diaktifkan sesuai paket langganan.
+
+f. Pengujian Jaringan
+Teknisi menguji koneksi menggunakan ping test, speedtest, traceroute, dan memeriksa kestabilan sinyal. Tujuannya memastikan semua layanan berjalan normal.
+
+g. Serah Terima ke Pelanggan
+Setelah semua layanan aktif dan stabil, teknisi memberikan informasi login (SSID dan password WiFi), menjelaskan cara penggunaan, dan memberikan edukasi dasar troubleshooting.
+
+h. Dokumentasi dan Pelaporan
+Teknisi membuat dokumentasi berupa foto instalasi, catatan konfigurasi, dan mengisi form aktivasi yang dilaporkan ke sistem pusat.
+
+4. Perangkat yang Digunakan
+ONT / Modem / Router
+Switch (jika diperlukan)
+Kabel fiber optik atau UTP
+Crimping tools, splicer, optical power meter
+
+5. Tim yang Terlibat
+
+Teknisi Lapangan: Instalasi dan konfigurasi.
+NOC (Network Operation Center): Provisioning dan monitoring.
+Customer Service: Konfirmasi layanan dan edukasi pelanggan.
+Admin Sistem: Pencatatan data ke sistem pusat.
+
+6. Penutup
+Aktivasi jaringan adalah tahapan penting dalam penyediaan layanan komunikasi dan internet.
+Proses ini memastikan pelanggan mendapatkan layanan yang stabil, cepat, dan aman. Dengan prosedur yang 
+sistematis dan tim yang solid, layanan jaringan dapat diaktifkan secara efektif dan efisien untuk memenuhi kebutuhan pelanggan.
+

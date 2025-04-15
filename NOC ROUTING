@@ -1,0 +1,85 @@
+🧠 Apa Itu NOC Routing?
+
+NOC Routing adalah bagian dari Network Operation Center (NOC) yang bertanggung jawab untuk mengelola dan memantau sistem routing di dalam jaringan. 
+Routing sendiri adalah proses mengarahkan lalu lintas data dari satu jaringan ke jaringan lain, agar sampai ke tujuan dengan jalur terbaik.
+
+➕ Singkatnya:
+
+Routing = Proses menentukan jalur data dalam jaringan.
+NOC Routing = Tim yang mengawasi dan mengatur rute-rute tersebut agar jaringan tetap berjalan lancar, efisien, dan aman.
+
+Biasanya mereka bekerja dengan perangkat router dan routing protocol seperti:
+
+BGP (Border Gateway Protocol) – buat antar jaringan besar (internet)
+OSPF (Open Shortest Path First) – untuk routing internal
+EIGRP, RIP, dll (tergantung topologi)
+
+================================================================================================================================
+
+⚙️ Bagaimana Cara Kerja NOC Routing?
+
+1. Memonitor Jalur Routing Secara Real-Time
+Menggunakan tools monitoring seperti BGPmon, Zabbix, atau SolarWinds.
+Memastikan tidak ada jalur routing yang hilang atau berubah mendadak.
+
+2. Menjaga Kestabilan Routing
+Memastikan bahwa protokol routing seperti BGP dan OSPF bekerja normal.
+Jika terjadi flapping (naik turun jalur), segera ditangani.
+
+3. Menganalisis Lalu Lintas Data
+Menentukan jalur tercepat dan paling efisien.
+Menyesuaikan konfigurasi routing agar tidak terjadi bottleneck.
+
+4. Menangani Gangguan Jalur
+Jika jalur utama terputus, NOC Routing mengarahkan data ke jalur cadangan (failover).
+Koordinasi dengan NOC Backbone jika gangguan di level jaringan utama.
+
+==============================================================================================================================
+
+📋 Jobdesk NOC Routing
+
+1. Monitoring Routing Table dan Status Jalur
+Memastikan routing table stabil dan sinkron.
+Deteksi adanya jalur tidak valid atau konflik IP.
+
+2. Konfigurasi Routing
+Melakukan konfigurasi protokol routing seperti BGP/OSPF.
+Menambahkan atau menghapus route jika ada perubahan jaringan.
+
+3. Analisis dan Optimasi Jalur
+Menganalisis performa jalur (latency, hop count, packet loss).
+Melakukan load balancing agar jalur tidak terlalu padat.
+
+4. Troubleshooting Masalah Routing
+Menangani insiden seperti:
+Jalur ke server tertentu tidak bisa diakses
+Tidak bisa ping antar lokasi
+Masalah dengan peering BGP antar ISP
+
+5. Peering dan Koordinasi dengan ISP
+Jika jaringan terhubung ke internet global, tim routing juga bertanggung jawab atas peering BGP dengan provider luar.
+Update prefix, ASN, dan konfigurasi BGP.
+
+6. Update Firmware dan Backup Konfigurasi Router
+Melakukan pemeliharaan router inti (core router).
+Backup konfigurasi routing untuk mencegah kehilangan data saat ada kerusakan.
+
+7. Dokumentasi dan Laporan
+Membuat laporan insiden, perubahan routing, dan dokumentasi topologi jaringan.
+
+=================================================================================================================================
+
+🔁 Contoh Workflow Kerja NOC Routing
+Waktu	Aktivitas
+08.00	Cek status peering BGP dan jalur OSPF
+09.30	Tanggapi alert: routing flapping di link Jakarta-Surabaya
+10.00	Update konfigurasi route baru untuk kantor cabang
+13.00	Koordinasi dengan ISP untuk BGP peering
+15.00	Dokumentasi dan backup konfigurasi routing
+
+==================================================================================================================================
+
+✅ Kesimpulan
+NOC Routing adalah tim yang memastikan arah lalu lintas data dalam jaringan berjalan dengan benar dan optimal.
+Mereka berperan penting dalam kestabilan koneksi, baik internal maupun koneksi ke internet global.
+

@@ -1,0 +1,65 @@
+🧠 Apa Itu NOC Access?
+NOC Access adalah bagian dari Network Operation Center (NOC) yang fokus utamanya adalah memantau, mengelola, dan menangani koneksi jaringan dari sisi pengguna akhir (end user). 
+Ini bisa berupa koneksi ke rumah pelanggan, kantor cabang, atau klien kecil hingga menengah.
+
+Kalau NOC Backbone menangani jaringan utama atau inti (core), maka NOC Access fokus pada akses ke jaringan tersebut dari sisi luar atau ujung — makanya disebut access.
+
+==========================================================================================================================================================================
+
+🔄 Bagaimana Cara Kerja NOC Access?
+
+NOC Access bekerja dengan cara:
+
+Memantau semua perangkat jaringan akses seperti ONU (Optical Network Unit), OLT (Optical Line Terminal), access switch, modem, dan Wi-Fi router.
+Mendeteksi masalah koneksi yang terjadi di sisi pelanggan atau titik akhir jaringan.
+Menangani keluhan pelanggan seperti "internet lambat", "tidak bisa connect", atau "lampu modem merah".
+Memberi support teknis awal, dan jika perlu, eskalasi ke teknisi lapangan.
+
+📋 Jobdesk NOC Access
+
+1. Monitoring Jaringan Akses
+Memantau status perangkat pelanggan, seperti:
+ONU/ONT
+Modem
+Access switch
+Memastikan semua perangkat aktif dan tidak bermasalah.
+Menggunakan sistem monitoring seperti ACS (Auto Configuration Server) atau NMS.
+
+2. Menangani Gangguan Pelanggan
+Cek kenapa pelanggan tidak bisa akses internet.
+Melakukan remote reset atau konfigurasi ulang perangkat pelanggan.
+Memberi panduan dasar ke pelanggan atau support center.
+
+3. Troubleshooting Awal
+Melakukan pengecekan IP address, MAC address, status link, dan konfigurasi VLAN.
+Cek koneksi antar perangkat di sisi access.
+
+4. Eskalasi ke Tim Field
+Jika tidak bisa diselesaikan dari pusat, NOC Access akan mengirim tiket ke teknisi lapangan.
+Misalnya: kabel optik putus, perangkat mati total, atau gangguan area.
+
+5. Pemetaan dan Dokumentasi Jaringan Akses
+Mendata perangkat yang terpasang di lapangan.
+Update peta jaringan (access map), termasuk data pelanggan aktif.
+
+6. Analisis Gangguan Massal
+Mendeteksi jika ada banyak pelanggan yang mengeluh dalam waktu bersamaan.
+Menandai itu sebagai gangguan area atau mass issue.
+
+
+🧾 Contoh Bedanya NOC Backbone vs NOC Access
+   Aspek	                          NOC Backbone	                                       NOC Access
+==============================================================================================================
+Fokus	                    Jaringan utama/core (antar kota/server)	      Jaringan ke pelanggan (rumah/kantor)
+Perangkat	                Core router, core switch, fiber backbone	    Modem, access switch, ONU
+Masalah yang Ditangani	  Link putus antar kota, routing, kapasitas	    Internet rumah mati, Wi-Fi gangguan, lampu LOS
+Koordinasi	              ISP/Telco utama	                              Customer support, teknisi lapangan🧾 Contoh Bedanya NOC Backbone vs NOC Access
+
+==============================================================================================================================================
+
+✅ Kesimpulan
+NOC Access adalah bagian dari tim NOC yang bertanggung jawab atas konektivitas sisi pengguna akhir. Mereka menangani gangguan akses internet,
+memantau perangkat pelanggan, dan berperan penting dalam menjaga kepuasan layanan.
+
+
+

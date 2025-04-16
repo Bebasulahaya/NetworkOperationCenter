@@ -1,0 +1,74 @@
+Alur Kerja Teknisi Support Jaringan
+
+1. Penerimaan Laporan Gangguan / Permintaan Pekerjaan
+
+()Tim teknisi menerima informasi gangguan atau permintaan dari:
+- Tim NOC (Network Operation Center)
+- Admin teknis
+- Langsung dari pelanggan melalui sistem tiket atau WhatsApp
+
+()Informasi yang diterima biasanya meliputi:
+- Nama pelanggan dan lokasi
+- Jenis gangguan (tidak ada internet, perangkat rusak, kabel putus, dll)
+- Waktu kejadian
+
+======================================================================================
+2. Persiapan Peralatan dan Material
+
+()Teknisi menyiapkan alat dan perlengkapan yang dibutuhkan:
+- Mesin splicing, power meter, OTDR
+- Tang crimping, tester LAN, obeng, bor, alat pelindung
+- Perangkat pengganti (modem, ONU, router)
+- Kabel fiber optic, konektor, dropcore, dll.
+()Koordinasi tim untuk berangkat ke lokasi pelanggan atau titik gangguan.
+
+=============================================================================================
+3. Menuju Lokasi Gangguan / Pemasangan
+
+- Teknisi berangkat ke lokasi dengan kendaraan operasional atau pribadi.
+- Menghubungi pelanggan jika dibutuhkan akses ke dalam rumah/toko.
+
+================================================================================================
+4. Pemeriksaan Awal
+
+()Mengecek kondisi fisik jaringan:
+- Apakah ada kabel yang putus/lepas
+- Apakah perangkat menyala normal
+- Mengecek indikator lampu pada modem/ONU
+()Tes koneksi menggunakan perangkat kerja (laptop, tester, dll)
+
+=============================================================================================
+5. Penanganan Masalah
+()Jika gangguan pada kabel fiber optic:
+Lakukan splicing kabel
+Tes kembali sinyal menggunakan OTDR atau power meter
+
+()Jika gangguan pada perangkat:
+Ganti modem atau ONU
+Setting ulang dan konfigurasi
+
+()Jika perlu penarikan kabel baru:
+Tarik kabel dari ODP/tiang ke rumah pelanggan
+Pemasangan dan pengaturan ulang kabel
+
+==================================================================================================
+6. Pengujian dan Verifikasi
+
+()Lakukan uji koneksi internet:
+Tes kecepatan
+Tes ping dan stabilitas koneksi
+Pastikan semua perangkat berfungsi normal
+Minta konfirmasi dari pelanggan bahwa jaringan sudah normal
+
+=================================================================================================
+7. Dokumentasi dan Pelaporan
+
+- Ambil foto hasil pekerjaan (sebelum dan sesudah)
+- Catat detail pekerjaan di form laporan kerja atau aplikasi
+- Laporkan ke tim NOC atau supervisor via grup kerja atau sistem
+
+==================================================================================================
+8. Penyelesaian Tugas
+
+Menutup laporan tiket gangguan
+Kembali ke kantor atau lanjut ke tugas berikutnya
